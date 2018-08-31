@@ -1,0 +1,93 @@
+.MainBody {
+	width:100vw;
+}
+
+.MainBody div {
+	text-align:center;
+}
+
+	/* Main Section - START */
+
+.MainSection {
+	background-image:url(../images/RetailBG.png);
+	background-size:cover;
+	padding: 30vh 0;
+	color:#FFF;
+}
+
+.MainTitle {
+	font-size: 100px;
+	font-weight:1000;
+	letter-spacing: 0.8vw;
+}
+
+.SubTitle {
+	font-size: 30px;
+	font-weight: 100;
+	transform:scale(1,1.5);
+	letter-spacing: 0.5vw;
+}
+
+	/* Main Section - END */
+
+	/* Middle Section - START */
+
+.MiddleTitle {
+	padding:2vh 0;
+}
+
+.MiddleMainTitle {
+	font-size:50px;
+	font-weight:1000;
+}
+
+.MiddleSubTitle {
+	font-size:20px;
+	font-weight:1000;
+	letter-spacing: 0.2vw;
+}
+
+.MiddleContent{
+	display:flex;
+	width:100vw;
+}
+
+.SideSectionSplit {
+	width:50vw;
+	background-size:cover;
+	background-repeat:none;
+	filter:grayscale(100%);
+	font-size:30px;
+	color:#FFF;
+	padding:25vh 5vw;
+}
+
+.SideSectionTitle {
+	background-color:rgba(0,0,0,0.4);
+	padding:1vh 1vw;
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.4);
+	color:rgba(255,255,255,0.8);
+	transition:all 0.1s ease-in-out;
+}
+
+#LeftSection {
+	width:50vw;
+	background-size:cover;
+	background-repeat:none;
+	font-size:30px;
+	padding:25vh 5vw;
+	background-image:url(../images/NewBusiness.jpg);
+	transition:all 0.1s ease-in-out;
+}
+
+#RightSection {
+	width:50vw;
+	background-size:cover;
+	background-repeat:none;
+	font-size:30px;
+	padding:25vh 5vw;
+	background-image:url(../images/ExistingBusiness.jpg);
+	transition:all 0.1s ease-in-out;
+}
+
+	/* Middle Section - END */
